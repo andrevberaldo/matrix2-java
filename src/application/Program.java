@@ -40,6 +40,8 @@ public class Program {
 			}
 		}
 		
+		System.out.println("André");
+		
 		sc.close();
 	}
 }
