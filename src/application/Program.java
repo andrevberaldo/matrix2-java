@@ -1,6 +1,9 @@
 package application;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+
 
 public class Program {
 
@@ -11,6 +14,7 @@ public class Program {
 		int m = sc.nextInt();
 		int n = sc.nextInt();
 		int[][] mat = new int[m][n];
+		List<Integer> lista = new ArrayList<>();
 		
 		for (int i=0; i<mat.length; i++) {
 			for (int j=0; j<mat[i].length; j++) {
@@ -38,6 +42,10 @@ public class Program {
 					}
 				}
 			}
+		}
+		
+		for (int i=0; i<10; i++) {
+			lista.add(i);
 		}
 		
 		System.out.println("André");
